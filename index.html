@@ -92,7 +92,7 @@
             padding-left: 0.5rem;
         }
        .menu-area-title {
-            font-size: 0.95rem;
+            font-size: 0.95rem; 
             font-weight: 500;
             color: #555555;
             margin-top: 0.5rem; 
@@ -128,7 +128,7 @@
             height: 100vh; 
         }
        .content-wrapper { 
-             padding: 2rem;
+            padding: 2rem;
         }
 
        .content-section {
@@ -280,7 +280,7 @@
                 month: 5, name: '足立の花火', prefecture: '東京都', dates: '5月31日 (例年の傾向と異なる場合あり)',
                 calendarDates: { month: 5, year: 2025, startDay: 31, endDay: 31, highlightDays: [31] }, 
                 location: '〒123-0851 東京都足立区梅田４丁目 荒川西新井緑地帯', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('〒123-0851 東京都足立区梅田４丁目 荒川西新井緑地帯')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('〒123-0851 東京都足立区梅田４丁目 荒川西新井緑地帯')}&hl=ja`,
                 attendance: '約70万人（例年）', minWage: { value: 1163, area: '東京都', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://www.adachikanko.net/wp-content/uploads/2023/04/b1f27d84e3141d19d3791795fe158250-700x467.jpg',
                 wages: { 
@@ -299,7 +299,7 @@
                 month: 6, name: '山王まつり (日枝神社)', prefecture: '富山県', dates: '6月1日～3日 (ユーザー提供情報)', 
                 calendarDates: { month: 6, year: 2025, startDay: 1, endDay: 3, highlightDays: [1,2,3] },
                 location: '富山県富山市山王町 日枝神社', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('富山県富山市山王町 日枝神社')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('富山県富山市山王町 日枝神社')}&hl=ja`,
                 attendance: '約20万人以上（例年）', minWage: { value: 998, area: '富山県', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://www.hie.jp/cms/wp-content/uploads/2018/05/c9145cb5ac33ab368fc0c3990f870418.jpg',
                 wages: {
@@ -317,7 +317,7 @@
                 month: 6, name: 'YOSAKOIソーラン祭り', prefecture: '北海道', dates: '6月4日～8日 (2025年開催想定)',
                 calendarDates: { month: 6, year: 2025, startDay: 4, endDay: 8, highlightDays: [4,5,6,7,8] },
                 location: '北海道札幌市中央区大通西8丁目 大通公園', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('北海道札幌市中央区大通西8丁目 大通公園')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('北海道札幌市中央区大通西8丁目 大通公園')}&hl=ja`,
                 attendance: '約210万9,000人（2024年実績）', minWage: { value: 1010, area: '北海道', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://static.yosakoi-soran.jp/wp-content/uploads/2024/06/06063513/20240605_01.jpg',
                 wages: {
@@ -335,9 +335,9 @@
                 id: 'gion_matsuri', month: 7, name: '祇園祭', prefecture: '京都府', dates: '7月1日～31日 (山鉾巡行:17日・24日)',
                 calendarDates: { month: 7, year: 2025, startDay: 1, endDay: 31, highlightDays: [17, 24] },
                 location: '京都府京都市東山区祇園町北側 八坂神社', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('京都府京都市東山区祇園町北側 八坂神社')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('京都府京都市東山区祇園町北側 八坂神社')}&hl=ja`,
                 attendance: '約100万人以上', minWage: { value: 1058, area: '京都府', effectiveDate: '令和6年10月1日' },
-                imagePlaceholder: 'https://lh5.googleusercontent.com/proxy/k0h9XgGXsNf-qSxIMpj8SkzwBdAcz5x62eRcg-EJUCacMBK4rwiurnhJQMv6JHNQdwpIbUu84tjkZz83rIQUyvGVU-TrIdZV',
+                imagePlaceholder: 'https://lh5.googleusercontent.com/proxy/k0h9XgGXsNf-qSxIMpj8SkzwBdAcz5x62eRcg-EJUCacMBK4rwiurnhJQMv6JHNQdwpIbUu84tjkZz83rIQUyvGVU-TrIdZV', // Placeholder - consider updating if a better one is found
                 wages: {
                     convenience: { labels: ['セブン-イレブン', 'ファミリーマート', 'ローソン'], data: [1100, 1110, 1090], ranges: {'セブン-イレブン': '¥1,060 - ¥1,180+', 'ファミリーマート': '¥1,070 - ¥1,190+', 'ローソン': '¥1,060 - ¥1,150+'} },
                     restaurant: { 
@@ -350,9 +350,9 @@
             },
             {
                 id: 'tenjin_matsuri', month: 7, name: '天神祭', prefecture: '大阪府', dates: '6月下旬～7月25日 (本宮:7月25日)',
-                calendarDates: { month: 7, year: 2025, startDay: 24, endDay: 25, highlightDays: [25] },
+                calendarDates: { month: 7, year: 2025, startDay: 24, endDay: 25, highlightDays: [25] }, // Assuming main days for calendar
                 location: '大阪府大阪市北区天神橋 大阪天満宮', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('大阪府大阪市北区天神橋 大阪天満宮')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('大阪府大阪市北区天神橋 大阪天満宮')}&hl=ja`,
                 attendance: '約130万人', minWage: { value: 1114, area: '大阪府', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://img01.jalannews.jp/img/2024/06/20240603_osaka-tenjin_001.jpg',
                 wages: {
@@ -366,13 +366,13 @@
                 }
             },
             {
-                id: 'fuji_rock', month: 7, name: 'フジロック・フェスティバル', prefecture: '新潟県', dates: '7月下旬の3日間',
-                calendarDates: { month: 7, year: 2025, startDay: 25, endDay: 27, highlightDays: [25,26,27] },
+                id: 'fuji_rock', month: 7, name: 'フジロック・フェスティバル', prefecture: '新潟県', dates: '7月下旬の3日間', // Example: 2024 was July 26-28
+                calendarDates: { month: 7, year: 2025, startDay: 25, endDay: 27, highlightDays: [25,26,27] }, // Assuming similar dates for 2025
                 location: '新潟県湯沢町三国 苗場スキー場', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('新潟県湯沢町三国 苗場スキー場')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('新潟県湯沢町三国 苗場スキー場')}&hl=ja`,
                 attendance: '約13万人（2019年）', minWage: { value: 985, area: '新潟県', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://bcij.jp/wp-content/uploads/2018/08/green_a.jpg',
-                 wages: {
+                 wages: { 
                     convenience: { labels: ['セブン-イレブン', 'ファミリーマート', 'ローソン'], data: [1030, 1040, 1020], ranges: {'セブン-イレブン': '¥990 - ¥1,100+', 'ファミリーマート': '¥990 - ¥1,110+', 'ローソン': '¥990 - ¥1,080+'} },
                     restaurant: { 
                         labels: ['居酒屋', 'ファミリーレストラン', 'レストラン(その他)', 'ファストフード', 'カフェ'], 
@@ -383,13 +383,13 @@
                 }
             },
             {
-                id: 'sumidagawa_hanabi', month: 7, name: '隅田川花火大会', prefecture: '東京都', dates: '7月下旬・最終土曜日',
-                calendarDates: { month: 7, year: 2025, startDay: 26, endDay: 26, highlightDays: [26] },
+                id: 'sumidagawa_hanabi', month: 7, name: '隅田川花火大会', prefecture: '東京都', dates: '7月下旬・最終土曜日', // Example: 2024 was July 27
+                calendarDates: { month: 7, year: 2025, startDay: 26, endDay: 26, highlightDays: [26] }, // Assuming last Sat of July 2025
                 location: '東京都墨田区 隅田川河川敷', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('東京都墨田区 隅田川花火大会 会場')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('東京都墨田区 隅田川花火大会 会場')}&hl=ja`,
                 attendance: '約100万人（2023年は103万人）', minWage: { value: 1163, area: '東京都', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://img.activityjapan.com/wi/sumidagawa_hanabi_top01.jpg',
-                wages: {
+                wages: { // Re-using Adachi (Tokyo) wages as they are similar
                     convenience: { labels: ['セブン-イレブン', 'ファミリーマート', 'ローソン'], data: [1210, 1230, 1190], ranges: {'セブン-イレブン': '¥1,170 - ¥1,280+', 'ファミリーマート': '¥1,180 - ¥1,300+', 'ローソン': '¥1,170 - ¥1,260+'} },
                     restaurant: { 
                         labels: ['居酒屋', 'ファミリーレストラン', 'レストラン(その他)', 'ファストフード', 'カフェ'], 
@@ -404,7 +404,7 @@
                 id: 'aomori_nebuta', month: 8, name: '青森ねぶた祭', prefecture: '青森県', dates: '8月2日～7日',
                 calendarDates: { month: 8, year: 2025, startDay: 2, endDay: 7, highlightDays: [2,3,4,5,6,7] },
                 location: '青森県青森市中央１丁目', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('青森県青森市中央１丁目')}&hl=ja`, 
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('青森県青森市中央１丁目')}&hl=ja`, 
                 attendance: '延べ約200万人以上', minWage: { value: 953, area: '青森県', effectiveDate: '令和6年10月5日' },
                 imagePlaceholder: 'https://kamenoi-hotels.com/selection/img/nebuta/slider/1.jpg',
                 wages: {
@@ -417,14 +417,44 @@
                     retail: { labels: ['アパレル', '雑貨・土産', 'ドラッグストア'], data: [1160, 1090, 1060], ranges: {'アパレル': '¥1,050 - ¥1,350', '雑貨・土産': '¥1,000 - ¥1,220', 'ドラッグストア': '¥980 - ¥1,180'} }
                 }
             },
+            { // NEW EVENT: Kochi Yosakoi Festival
+                id: 'kochi_yosakoi',
+                month: 8,
+                name: '高知よさこい祭り',
+                prefecture: '高知県',
+                dates: '8月9日～12日 (前夜祭:9日, 本番:10日・11日, 後夜祭/全国大会:12日)',
+                calendarDates: { month: 8, year: 2025, startDay: 9, endDay: 12, highlightDays: [9, 10, 11, 12] },
+                location: '高知県高知市追手筋 高知城下～中央公園周辺',
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('高知県高知市中央公園')}&hl=ja`,
+                attendance: '約100万人～115万人（4日間延べ）',
+                minWage: { value: 952, area: '高知県', effectiveDate: '令和6年10月9日' },
+                imagePlaceholder: 'https://yosakoimatsuri.com/kochi/wp-content/uploads/2013/04/main_photo.jpg',
+                wages: {
+                    convenience: {
+                        labels: ['セブン-イレブン', 'ファミリーマート', 'ローソン'],
+                        data: [1000, 980, 970],
+                        ranges: {'セブン-イレブン': '¥960 - ¥1080+', 'ファミリーマート': '¥960 - ¥1060+', 'ローソン': '¥960 - ¥1050+'}
+                    },
+                    restaurant: {
+                        labels: ['居酒屋', 'ファミリーレストラン', 'レストラン(その他)', 'ファストフード', 'カフェ'],
+                        data: [1080, 1000, 1050, 980, 1020],
+                        ranges: {'居酒屋': '¥1000 - ¥1200', 'ファミリーレストラン': '¥960 - ¥1100', 'レストラン(その他)': '¥980 - ¥1150', 'ファストフード': '¥960 - ¥1050', 'カフェ': '¥970 - ¥1100'}
+                    },
+                    retail: {
+                        labels: ['アパレル', '雑貨・土産', 'ドラッグストア'],
+                        data: [1100, 1050, 1000],
+                        ranges: {'アパレル': '¥1000 - ¥1250', '雑貨・土産': '¥980 - ¥1180', 'ドラッグストア': '¥960 - ¥1100'}
+                    }
+                }
+            },
             {
                 id: 'nagaoka_hanabi', month: 8, name: '長岡まつり大花火大会', prefecture: '新潟県', dates: '8月2日・3日',
                 calendarDates: { month: 8, year: 2025, startDay: 2, endDay: 3, highlightDays: [2,3] },
                 location: '新潟県長岡市長生橋下流 信濃川河川敷', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('新潟県長岡市長生橋下流 信濃川河川敷')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('新潟県長岡市長生橋下流 信濃川河川敷')}&hl=ja`,
                 attendance: '約100万人（2019年）', minWage: { value: 985, area: '新潟県', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://nagaoka-navi.or.jp/image/rendering/feature_image/53/keep/1200?v=32c30891fb823e04103d5f9177a3c27169f5d4f9',
-                 wages: { 
+                 wages: { // Re-using Fuji Rock (Niigata) wages
                     convenience: { labels: ['セブン-イレブン', 'ファミリーマート', 'ローソン'], data: [1030, 1040, 1020], ranges: {'セブン-イレブン': '¥990 - ¥1,100+', 'ファミリーマート': '¥990 - ¥1,110+', 'ローソン': '¥990 - ¥1,080+'} },
                     restaurant: { 
                         labels: ['居酒屋', 'ファミリーレストラン', 'レストラン(その他)', 'ファストフード', 'カフェ'], 
@@ -438,7 +468,7 @@
                 id: 'akita_kanto', month: 8, name: '秋田竿燈まつり', prefecture: '秋田県', dates: '8月3日～6日',
                 calendarDates: { month: 8, year: 2025, startDay: 3, endDay: 6, highlightDays: [3,4,5,6] },
                 location: '秋田県秋田市竿燈大通り', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('秋田県秋田市竿燈大通り')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('秋田県秋田市竿燈大通り')}&hl=ja`,
                 attendance: '約132万人（2016年）', minWage: { value: 951, area: '秋田県', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://www.yakei-isan.jp/data/spot_img/030.jpg',
                  wages: { 
@@ -452,10 +482,10 @@
                 }
             },
             {
-                id: 'omagari_hanabi', month: 8, name: '大曲の花火', prefecture: '秋田県', dates: '8月最終土曜日',
-                calendarDates: { month: 8, year: 2025, startDay: 30, endDay: 30, highlightDays: [30] },
+                id: 'omagari_hanabi', month: 8, name: '大曲の花火', prefecture: '秋田県', dates: '8月最終土曜日', // Example: 2024 was Aug 31
+                calendarDates: { month: 8, year: 2025, startDay: 30, endDay: 30, highlightDays: [30] }, // Assuming last Sat of Aug 2025
                 location: '〒014-0057 秋田県大仙市大曲船場町 大曲の花火', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('〒014-0057 秋田県大仙市大曲船場町 大曲の花火')}&hl=ja`, 
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('〒014-0057 秋田県大仙市大曲船場町 大曲の花火')}&hl=ja`, 
                 attendance: '約70万人', minWage: { value: 951, area: '秋田県', effectiveDate: '令和6年10月1日' }, 
                 imagePlaceholder: 'https://daisenkankou.com/wp-content/uploads/2015/08/15745bb54029ce010bf3bf08684333ac.jpg',
                 wages: { // Similar to Akita Kanto
@@ -472,7 +502,7 @@
                 id: 'sendai_tanabata', month: 8, name: '仙台七夕まつり', prefecture: '宮城県', dates: '8月6日～8日',
                 calendarDates: { month: 8, year: 2025, startDay: 6, endDay: 8, highlightDays: [6,7,8] },
                 location: '宮城県仙台市青葉区一番町 中央通り', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('宮城県仙台市青葉区一番町 中央通り')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('宮城県仙台市青葉区一番町 中央通り')}&hl=ja`,
                 attendance: '約200万人（例年）', minWage: { value: 973, area: '宮城県', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Sendai_Tanabata_2023.jpg/960px-Sendai_Tanabata_2023.jpg',
                  wages: {
@@ -486,10 +516,10 @@
                 }
             },
             {
-                id: 'edogawaku_hanabi', month: 8, name: '江戸川区花火大会', prefecture: '東京都', dates: '8月上旬・第1土曜日',
-                calendarDates: { month: 8, year: 2025, startDay: 2, endDay: 2, highlightDays: [2] },
+                id: 'edogawaku_hanabi', month: 8, name: '江戸川区花火大会', prefecture: '東京都', dates: '8月上旬・第1土曜日', // Example: 2024 was Aug 3
+                calendarDates: { month: 8, year: 2025, startDay: 2, endDay: 2, highlightDays: [2] }, // Assuming 1st Sat of Aug 2025
                 location: '東京都江戸川区北小岩４丁目 江戸川河川敷', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('東京都江戸川区北小岩４丁目 江戸川河川敷')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('東京都江戸川区北小岩４丁目 江戸川河川敷')}&hl=ja`,
                 attendance: '約139万人（2018年）', minWage: { value: 1163, area: '東京都', effectiveDate: '令和6年10月1日' }, 
                 imagePlaceholder: 'https://tokyo-trip.org/wp-content/uploads/2018/07/edogawakuhanabi2024.jpg',
                 wages: { // Re-using Sumidagawa (Tokyo) wages
@@ -506,7 +536,7 @@
                 id: 'tokushima_awaodori', month: 8, name: '徳島市阿波おどり', prefecture: '徳島県', dates: '8月12日～15日頃 (近年は8月11日～15日の5日間開催傾向)',
                 calendarDates: { month: 8, year: 2025, startDay: 11, endDay: 15, highlightDays: [11,12,13,14,15] },
                 location: '徳島県徳島市南内町１丁目４', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('徳島県徳島市南内町１丁目４')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('徳島県徳島市南内町１丁目４')}&hl=ja`, // Central point
                 attendance: '約130万人', minWage: { value: 980, area: '徳島県', effectiveDate: '令和6年11月1日' },
                 imagePlaceholder: 'https://funfun-tokushima.jp/wp/wp-content/uploads/2024/06/awaodori_minamiuchimachi.jpg',
                  wages: {
@@ -520,13 +550,13 @@
                 }
             },
             {
-                id: 'summer_sonic', month: 8, name: 'サマーソニック', prefecture: '千葉県・大阪府', dates: '8月中旬の2日間',
-                calendarDates: { month: 8, year: 2025, startDay: 16, endDay: 17, highlightDays: [16,17] },
-                location: '千葉県千葉市美浜区中瀬 ZOZOマリンスタジアム', // More specific location
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('千葉県千葉市美浜区中瀬 ZOZOマリンスタジアム')}&hl=ja`, 
-                attendance: '約21.5万人（東京＋大阪合計）', minWage: { value: 1076, area: '千葉県', effectiveDate: '令和6年10月1日' }, 
+                id: 'summer_sonic', month: 8, name: 'サマーソニック', prefecture: '千葉県・大阪府', dates: '8月中旬の2日間', // Example: 2024 was Aug 17-18
+                calendarDates: { month: 8, year: 2025, startDay: 16, endDay: 17, highlightDays: [16,17] }, // Assuming similar weekend
+                location: '千葉県千葉市美浜区中瀬 ZOZOマリンスタジアム', // More specific location for Chiba
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('千葉県千葉市美浜区中瀬 ZOZOマリンスタジアム')}&hl=ja`, 
+                attendance: '約21.5万人（東京＋大阪合計）', minWage: { value: 1076, area: '千葉県', effectiveDate: '令和6年10月1日' }, // Chiba's min wage
                 imagePlaceholder: 'https://www.fashion-press.net/img/news/113288/ezw.jpg',
-                 wages: { 
+                 wages: { // Chiba wages
                     convenience: { labels: ['セブン-イレブン', 'ファミリーマート', 'ローソン'], data: [1120, 1130, 1110], ranges: {'セブン-イレブン': '¥1,080 - ¥1,190+', 'ファミリーマート': '¥1,090 - ¥1,200+', 'ローソン': '¥1,080 - ¥1,180+'} },
                     restaurant: { 
                         labels: ['居酒屋', 'ファミリーレストラン', 'レストラン(その他)', 'ファストフード', 'カフェ'], 
@@ -537,10 +567,10 @@
                 }
             },
             {
-                id: 'rock_in_japan', month: 8, name: 'ROCK IN JAPAN FESTIVAL', prefecture: '千葉県', dates: '8月上旬～中旬（計5日間）',
-                calendarDates: { month: 8, year: 2025, startDay: 9, endDay: 13, highlightDays: [9,10,11,12,13] },
-                location: '千葉県千葉市中央区川崎町 蘇我スポーツ公園', // More specific location
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('千葉県千葉市中央区川崎町 蘇我スポーツ公園')}&hl=ja`,
+                id: 'rock_in_japan', month: 8, name: 'ROCK IN JAPAN FESTIVAL', prefecture: '千葉県', dates: '8月上旬～中旬（計5日間）', // Example: 2024 was Aug 3,4,10,11,12
+                calendarDates: { month: 8, year: 2025, startDay: 9, endDay: 13, highlightDays: [9,10,11,12,13] }, // Example dates for 2025
+                location: '千葉県千葉市中央区川崎町 蘇我スポーツ公園', 
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('千葉県千葉市中央区川崎町 蘇我スポーツ公園')}&hl=ja`,
                 attendance: '約27.5万人（2024年）', minWage: { value: 1076, area: '千葉県', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://rijfes.s3.ap-northeast-1.amazonaws.com/202409/img/upload/2024/09/15080507/rijf2024_hitachinaka_home_pc-scaled.jpg',
                 wages: { // Chiba wages (same as Summer Sonic Chiba)
@@ -554,13 +584,13 @@
                 }
             },
              {
-                id: 'rising_sun_rock', month: 8, name: 'RISING SUN ROCK FESTIVAL', prefecture: '北海道', dates: '8月中旬の2日間',
-                calendarDates: { month: 8, year: 2025, startDay: 16, endDay: 17, highlightDays: [16,17] },
+                id: 'rising_sun_rock', month: 8, name: 'RISING SUN ROCK FESTIVAL', prefecture: '北海道', dates: '8月中旬の2日間', // Example: 2024 was Aug 16-17
+                calendarDates: { month: 8, year: 2025, startDay: 16, endDay: 17, highlightDays: [16,17] }, // Assuming similar weekend
                 location: '北海道石狩市新港中央１丁目 石狩湾新港特設会場', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('北海道石狩市新港中央１丁目')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('北海道石狩市新港中央１丁目 石狩湾新港特設会場')}&hl=ja`,
                 attendance: '約6.8万人（2024年）', minWage: { value: 1010, area: '北海道', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://www.fashion-press.net/img/news/82460/Lvc.jpg',
-                wages: { // Hokkaido wages (Ishikari, near Sapporo)
+                wages: { // Hokkaido wages (Ishikari, near Sapporo, same as YOSAKOI Soran)
                     convenience: { labels: ['セブン-イレブン', 'ファミリーマート', 'ローソン'], data: [1050, 1060, 1040], ranges: {'セブン-イレブン': '¥1,010 - ¥1,100+', 'ファミリーマート': '¥1,020 - ¥1,120+', 'ローソン': '¥1,010 - ¥1,090+'} },
                     restaurant: { 
                         labels: ['居酒屋', 'ファミリーレストラン', 'レストラン(その他)', 'ファストフード', 'カフェ'], 
@@ -571,10 +601,10 @@
                 }
             },
             {
-                id: 'tokyo_idol_fes', month: 8, name: 'TOKYO IDOL FESTIVAL', prefecture: '東京都', dates: '8月上旬の3日間',
-                calendarDates: { month: 8, year: 2025, startDay: 1, endDay: 3, highlightDays: [1,2,3] },
+                id: 'tokyo_idol_fes', month: 8, name: 'TOKYO IDOL FESTIVAL', prefecture: '東京都', dates: '8月上旬の3日間', // Example: 2024 was Aug 2-4
+                calendarDates: { month: 8, year: 2025, startDay: 1, endDay: 3, highlightDays: [1,2,3] }, // Assuming similar weekend
                 location: '東京都江東区青海１丁目１', 
-                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=${encodeURIComponent('東京都江東区青海１丁目１')}&hl=ja`,
+                mapEmbedUrl: `https://www.google.com/maps?output=embed&q=$${encodeURIComponent('東京都江東区青海１丁目１ お台場・青海周辺エリア')}&hl=ja`,
                 attendance: '約8.0万人（2024年）', minWage: { value: 1163, area: '東京都', effectiveDate: '令和6年10月1日' },
                 imagePlaceholder: 'https://spice.eplus.jp/images/ABiEnVWxkFkznPh356ScRma6dFVII5NARegtA0zP0hV1lITG07SpkCWbUbMVevfv',
                 wages: { // Tokyo wages (same as Sumidagawa)
@@ -598,8 +628,9 @@
             const eventsByMonthThenArea = {};
             const monthNames = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
 
+            // Sort events by month, then by prefecture, then by name
             eventsData.sort((a,b) => a.month - b.month || a.prefecture.localeCompare(b.prefecture) || a.name.localeCompare(b.name))
-                      .forEach(event => {
+                        .forEach(event => {
                 const monthName = monthNames[event.month - 1];
                 if (!eventsByMonthThenArea[monthName]) {
                     eventsByMonthThenArea[monthName] = {};
@@ -629,6 +660,7 @@
             }
             sidebarElement.innerHTML = sidebarHTML;
 
+            // Add event listeners for month toggles
             document.querySelectorAll('.menu-month-title').forEach(title => {
                 title.addEventListener('click', function() {
                     const targetId = this.dataset.target;
@@ -646,10 +678,12 @@
                 });
             });
 
+            // Add event listeners for event items
             document.querySelectorAll('#sidebar .menu-item').forEach(item => {
                 item.addEventListener('click', function() {
                     const eventId = this.dataset.eventid;
                     loadEventContent(eventId);
+                    // Highlight active item
                     document.querySelectorAll('#sidebar .menu-item').forEach(i => i.classList.remove('active'));
                     this.classList.add('active');
                 });
@@ -660,21 +694,24 @@
             if (!calendarDates) return '<p>開催日程の詳細は公式情報をご確認ください。</p>';
             
             const { month, year, startDay, endDay, highlightDays = [] } = calendarDates;
-            const currentMonth = month -1; 
+            const currentMonth = month -1; // JavaScript months are 0-indexed
             const daysInMonth = new Date(year, currentMonth + 1, 0).getDate(); 
-            const firstDayOfMonth = new Date(year, currentMonth, 1).getDay(); 
+            const firstDayOfMonth = new Date(year, currentMonth, 1).getDay(); // 0 for Sunday, 1 for Monday...
 
             let html = `<div class="calendar">
                             <div class="calendar-header">日</div><div class="calendar-header">月</div><div class="calendar-header">火</div>
                             <div class="calendar-header">水</div><div class="calendar-header">木</div><div class="calendar-header">金</div>
                             <div class="calendar-header">土</div>`;
 
+            // Add empty cells for days before the first of the month
             for (let i = 0; i < firstDayOfMonth; i++) {
                 html += `<div class="calendar-day empty"></div>`;
             }
 
+            // Add days of the month
             for (let day = 1; day <= daysInMonth; day++) {
                 let classes = "calendar-day";
+                // Highlight if the day is within the event's start/end range OR in the explicit highlightDays array
                 if ((day >= startDay && day <= endDay) || highlightDays.includes(day)) {
                     classes += " event-date";
                 }
@@ -694,13 +731,14 @@
         }
 
         function loadEventContent(eventId) {
-            destroyCharts(); 
+            destroyCharts(); // Destroy existing charts before loading new content
             const event = eventsData.find(e => e.id === eventId);
             if (!event) {
                 eventDetailContentElement.innerHTML = '<p>イベント情報が見つかりません。</p>';
                 return;
             }
 
+            // Extract the main venue name for the store locator section, removing parenthetical details
             const mainVenueForLocator = event.location.split('（')[0].trim();
 
             let contentHTML = `
@@ -810,6 +848,7 @@
             `;
             eventDetailContentElement.innerHTML = contentHTML;
             
+            // Initialize charts if wage data exists
             if (event.wages) {
                 let chartInstance;
                 if(event.wages.convenience) {
@@ -826,7 +865,9 @@
                 }
             }
             
-            setupStoreLocator(event.id, event.location);
+            // Setup store locator functionality
+            setupStoreLocator(event.id, event.location); // Pass the full event location for the destination
+            // Scroll to top of content area
             document.getElementById('main-content-area').scrollTop = 0;
         }
 
@@ -897,7 +938,7 @@
             });
         }
         
-        function setupStoreLocator(eventId, eventLocation) {
+        function setupStoreLocator(eventId, eventVenueAddress) {
             const storeAddressInput = document.getElementById(`storeAddress_${eventId}`);
             const showProximityBtn = document.getElementById(`showProximityBtn_${eventId}`);
             const proximityResultDiv = document.getElementById(`proximityResult_${eventId}`);
@@ -922,22 +963,48 @@
                 }
 
                 const encodedStoreAddress = encodeURIComponent(storeAddress);
-                const mainEventLocation = eventLocation; 
-                const encodedEventVenueAddress = encodeURIComponent(mainEventLocation);
+                // Use the full event location as the destination for directions
+                const encodedEventVenueAddress = encodeURIComponent(eventVenueAddress.split('（')[0].trim()); 
 
-                const directionsEmbedUrl = `https://www.google.com/maps?output=embed&saddr=${encodedStoreAddress}&daddr=${encodedEventVenueAddress}&hl=ja`;
+                // Google Maps Directions URL format:
+                // origin=ORIGIN_PLACE&destination=DESTINATION_PLACE
+                // For embed: /embed/v1/directions?key=YOUR_API_KEY&origin=...&destination=...
+                // Using a simpler embed that relies on query parameters for directions if available for the `maps.google.com/3` endpoint.
+                // The provided format was `https://www.google.com/maps?output=embed&saddr=${encodedStoreAddress}&daddr=${encodedEventVenueAddress}&hl=ja`
+                // Let's adjust to a more standard Google Maps embed format for directions if the above doesn't work as expected.
+                // A common one is: `https://www.google.com/maps/embed/v1/directions?key=YOUR_API_KEY&origin=...&destination=...`
+                // However, since no API key is used, we'll try the format that was in the original code, assuming it's a specific internal setup.
+                // The original code had `https://www.google.com/maps?output=embed&q=${ADDRESS}` for single point and `https://www.google.com/maps?output=embed&saddr=${ORIGIN}&daddr={DESTINATION}` for directions.
+                // Let's stick to the pattern used for directions.
+                const directionsEmbedUrl = `https://www.google.com/maps?output=embed&saddr=$${encodedStoreAddress}&daddr=${encodedEventVenueAddress}&hl=ja`;
                 
                 directionsMap.src = directionsEmbedUrl; 
                 proximityResultDiv.style.display = 'block';
             });
         }
 
+        // Initial setup
         populateSidebar();
+        // Load the first event by default if data exists
         if (eventsData.length > 0) {
             loadEventContent(eventsData[0].id); 
             const firstMenuItem = document.querySelector('#sidebar .menu-item');
             if (firstMenuItem) {
                 firstMenuItem.classList.add('active');
+                // Optionally expand the month of the first event
+                const firstEvent = eventsData.find(e => e.id === eventsData[0].id);
+                if (firstEvent) {
+                    const monthNames = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
+                    const monthName = monthNames[firstEvent.month - 1];
+                    const monthToggle = document.querySelector(`.menu-month-title[data-target="month-content-${monthName.replace(/[^a-zA-Z0-9]/g, '')}"]`);
+                    const monthContent = document.getElementById(`month-content-${monthName.replace(/[^a-zA-Z0-9]/g, '')}`);
+                    const icon = monthToggle ? monthToggle.querySelector('.toggle-icon') : null;
+                    if (monthToggle && monthContent && !monthContent.classList.contains('expanded')) {
+                        monthContent.classList.add('expanded');
+                        monthToggle.classList.add('expanded');
+                        if(icon) icon.textContent = '-';
+                    }
+                }
             }
         }
 
